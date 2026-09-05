@@ -80,9 +80,9 @@ neetcode-150/
 
 ## 🚀 How to Participate & Submit
 
-각 멤버마다 파일명이 `<github_username>.py`로 분리되어 있어 충돌이 발생하지 않으므로, **날짜별로 매번 브랜치를 만들 필요 없이** 아래와 같이 간단하게 관리합니다.
+Since each member submits files named `<github_username>.<ext>`, there are no file merge conflicts. **You do not need to create daily branches.** You can easily participate using the streamlined workflow below:
 
-### 1. 개인 브랜치 생성 (최초 1회만)
+### 1. Create a Personal Member Branch (One-time setup)
 ```bash
 # Clone the repository
 git clone https://github.com/USC-CS-Study/neetcode-150.git
@@ -94,13 +94,13 @@ git checkout -b <your-github-id>
 ```
 
 ### 2. Solve & Save
-해당 문제 폴더에 본인의 GitHub 아이디로 솔루션 파일을 저장합니다:
+Save your solution file inside the corresponding problem folder using your GitHub username:
 ```
 problems/01-arrays-and-hashing/001-contains-duplicate/cksrblee.py
 problems/01-arrays-and-hashing/002-valid-anagram/cksrblee.py
 problems/01-arrays-and-hashing/003-two-sum/cksrblee.py
 ```
-*(다양한 언어 환영: `.py`, `.cpp`, `.java`, `.rs`, `.go`, `.ts`)*
+*(Multi-language solutions welcome: `.py`, `.cpp`, `.java`, `.rs`, `.go`, `.ts`)*
 
 ### 3. Commit & Push
 ```bash
@@ -109,9 +109,9 @@ git commit -m "feat: solve Day 01 problems (cksrblee)"
 git push origin <your-github-id>
 ```
 
-### 4. Pull Request (또는 main 직접 머지)
-- 본인 브랜치(`<your-github-id>`)에서 `main`으로 PR을 생성하여 코드 리뷰를 주고받습니다.
-- (스터디 룰에 따라 파일 충돌이 없으므로 `main`에 직접 푸시하도록 운영해도 무방합니다.)
+### 4. Pull Request or Direct Merge
+- Open a Pull Request from your branch (`<your-github-id>`) into `main` for group code review and feedback.
+- *(Note: Direct commits to `main` are also supported if the team prefers, as members edit distinct files without merge conflicts.)*
 
 ---
 
