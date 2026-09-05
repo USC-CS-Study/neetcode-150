@@ -78,40 +78,25 @@ neetcode-150/
 
 ---
 
-## 🚀 How to Participate & Submit
+## 🚀 How to Submit Solutions
 
-Since each member submits files named `<github_username>.<ext>`, there are no file merge conflicts. **You do not need to create daily branches.** You can easily participate using the streamlined workflow below:
+No separate branches are needed! Simply save your code as `<username>.py` inside the corresponding problem folder and push directly to `main`.
 
-### 1. Create a Personal Member Branch (One-time setup)
-```bash
-# Clone the repository
-git clone https://github.com/USC-CS-Study/neetcode-150.git
-cd neetcode-150
-
-# Create your personal member branch (e.g., cksrblee)
-git checkout -b <your-github-id>
-# Example: git checkout -b cksrblee
-```
-
-### 2. Solve & Save
+### 1. Save Your Solution
 Save your solution file inside the corresponding problem folder using your GitHub username:
 ```
-problems/01-arrays-hashing/001-contains-duplicate/cksrblee.py
-problems/01-arrays-hashing/002-valid-anagram/cksrblee.py
-problems/01-arrays-hashing/003-two-sum/cksrblee.py
+problems/01-arrays-hashing/001-contains-duplicate/<username>.py
+problems/01-arrays-hashing/002-valid-anagram/<username>.py
+problems/01-arrays-hashing/003-two-sum/<username>.py
 ```
-*(Multi-language solutions welcome: `.py`, `.cpp`, `.java`, `.rs`, `.go`, `.ts`)*
+*(Multi-language solutions are also welcome: `<username>.py`, `<username>.cpp`, `<username>.java`, etc.)*
 
-### 3. Commit & Push
+### 2. Commit & Push
 ```bash
 git add .
-git commit -m "feat: solve Day 01 problems (cksrblee)"
-git push origin <your-github-id>
+git commit -m "feat: solve Day 01 problems (<username>)"
+git push origin main
 ```
-
-### 4. Pull Request or Direct Merge
-- Open a Pull Request from your branch (`<your-github-id>`) into `main` for group code review and feedback.
-- *(Note: Direct commits to `main` are also supported if the team prefers, as members edit distinct files without merge conflicts.)*
 
 ---
 
