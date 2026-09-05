@@ -53,7 +53,7 @@
 ```
 neetcode-150/
 ├── problems/                       # 18 Category folders containing all 150 problems
-│   ├── 01-arrays-and-hashing/
+│   ├── 01-arrays-hashing/
 │   │   ├── 001-contains-duplicate/
 │   │   │   ├── README.md           # Problem details, notes & links
 │   │   │   └── <username>.py       # Member submissions
@@ -96,9 +96,9 @@ git checkout -b <your-github-id>
 ### 2. Solve & Save
 Save your solution file inside the corresponding problem folder using your GitHub username:
 ```
-problems/01-arrays-and-hashing/001-contains-duplicate/cksrblee.py
-problems/01-arrays-and-hashing/002-valid-anagram/cksrblee.py
-problems/01-arrays-and-hashing/003-two-sum/cksrblee.py
+problems/01-arrays-hashing/001-contains-duplicate/cksrblee.py
+problems/01-arrays-hashing/002-valid-anagram/cksrblee.py
+problems/01-arrays-hashing/003-two-sum/cksrblee.py
 ```
 *(Multi-language solutions welcome: `.py`, `.cpp`, `.java`, `.rs`, `.go`, `.ts`)*
 
